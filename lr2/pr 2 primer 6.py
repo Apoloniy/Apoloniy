@@ -1,0 +1,6 @@
+import math
+x = 16.55 * 10 ** (-3)
+y = - 2.75
+z = 0.15
+s = math.sqrt(10 * ((x ** 0.3333) + (x ** (y + 2)))) * ((math.asin(z) ** 2) - (math.fabs(x - y)))
+print(s)
