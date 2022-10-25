@@ -8,4 +8,4 @@ for i in a:
 if len(b) == 0:
     print("Чисел нет")
 else:
-    print(b) 
+    print(b)
